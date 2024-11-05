@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineSearch } from "react-icons/ai";
+// import { AiOutlineSearch } from "react-icons/ai";
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../utils/appSlice";
 
@@ -36,7 +36,7 @@ function Head() {
           type="text"
         />
         <button className="border border-gray-400 px-5 py-2 rounded-r-full bg-gray-100">
-          <AiOutlineSearch />
+          {/* <AiOutlineSearch /> */}
           {/* Search */}
         </button>
       </div>
